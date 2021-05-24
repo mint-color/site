@@ -1,0 +1,28 @@
+@import url("font.css");
+*,html,body,div{margin:0;padding:0;font-family:'Helvetica Light';}
+a{color:#939597;text-decoration:none;}
+::-webkit-scrollbar{width: 16px;}
+::-webkit-scrollbar-track {background:linear-gradient(#f5df4d 50%,#939597);}
+::-webkit-scrollbar-thumb {background:rgba(255,255,255,0.5);border-radius: 10px;}
+::-webkit-scrollbar-thumb:hover {background: #939597;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+width:16px;height:16px;background:#f1ef79;}
+.container{width:1280px;padding:0 20px; margin:0 auto;}
+.container > div {overflow:auto;zoom:1;margin:40px 0;}
+.container > div > div {display:inline-block;float:left;margin-right:40px;}
+.container > div > div:last-of-type {margin:0;}
+.container > div > div:after {content:'';display:block;padding-bottom:100%;}
+.container > div > div:nth-child(odd) {background:#f5df4d;}
+.container > div > div:nth-child(even) {background:#939597;}
+.zero-section .item {width:1280px;}
+.one-section .item {width:620px;}
+.two-section .item {width:400px;}
+.three-section .item {width:290px;}
+.four-section .item {width:224px;}
+.five-section .item {width:180px;}
+.footer{margin-bottom:30px;}
+.header p:first-of-type{margin-top:10px;}
+.header p{font-size:18px;}
+.header p > i {vertical-align:middle;display:inline-block;font-style:none;width:20px;height:20px;margin-right:3px;}
+.header p > i:nth-child(1) {background:#f5df4d;}
+.header p > i:nth-child(2) {background:#939597;}

@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Helvetica Light';
+	src: url('font/Helvetica Light.eot?#iefix') format('embedded-opentype'),
+	url('font/Helvetica Light.woff') format('woff'),
+	url('font/Helvetica Light.otf') format('opentype'),
+	url('font/Helvetica Light.svg#Helvetica') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RixStarlight Light';
+	src: url('font/RixStarlight Light.eot?#iefix') format('embedded-opentype'),
+	url('font/RixStarlight Light.woff') format('woff'),
+	url('font/RixStarlight Light.otf') format('opentype'),
+	url('font/RixStarlight Light.svg#RixStarlight Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
